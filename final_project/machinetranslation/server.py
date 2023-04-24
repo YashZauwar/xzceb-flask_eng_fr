@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from .machinetranslation import english_to_french, french_to_english
+from .translator import english_to_french, french_to_english
 
 app = Flask("My App")
 
